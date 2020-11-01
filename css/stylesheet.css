@@ -1,0 +1,404 @@
+
+
+.clear {
+  clear: both;
+}
+a {
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:none;
+}
+
+
+/*****************************************************
+header
+*****************************************************/
+header {
+  width: 100%;
+  background: -webkit-repeating-linear-gradient(-45deg, rgba(18,18,1,0.8),rgba(23,34,19,0.8));
+  background: repeating-linear-gradient(-45deg,rgba(18,18,1,0.8), rgba(23,34,19,0.8));
+  background-color: rgba(18,18,18,0.8);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #00a2ad;
+}
+
+.header-wrapper p {
+  position: relative;
+  padding: 5px 42px 5px 30px;
+  font-size: 14px;
+  color: white;
+  width: 350px;
+  background: linear-gradient(to right, #00a2ad, transparent);
+}
+
+.header-logo {
+  padding-left: 30px;
+}
+.header-logo img {
+  width: 180px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+
+
+/* header-right */
+
+/* pcのみ表示 */
+/*▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼*/
+
+.nav-pc-list ul,
+.nav-pc-list li {
+  float: right;
+}
+.nav-pc-list ul {
+  display: inline-flex;
+  padding-left: 40px;
+}
+.nav-pc-list li {
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.nav-pc-list a {
+  color: white;
+}
+.nav-pc-list a:hover {
+  opacity: 0.4;
+  transition: 0.6s;
+}
+/*▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲*/
+
+
+/* スマホのみ表示 */
+/*▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼*/
+#nav-drawer {
+  position: relative;
+}
+.nav-unshown {
+  display:none;
+}
+#nav-open {
+  width: 20px;
+  vertical-align: middle;
+  float: right;
+  padding-right: 30px;
+}
+
+
+#nav-open span, 
+#nav-open span:before, 
+#nav-open span:after {
+  position: absolute;
+  height: 5px;
+  width: 45px;
+  border-radius: 3px;
+  background-color: #00a2ad;
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+#nav-open span:before {
+  bottom: -12px;
+}
+#nav-open span:after {
+  bottom: -24px;
+  margin-top: 30px;
+}
+
+#nav-close {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .3s ease-in-out;
+  background-color: black;
+}
+
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  width: 90%;
+  max-width: 330px;
+  height: 100%;
+  background-color: rgba(18,18,18,0.8);
+  transition: .3s ease-in-out;
+  transform: translateX(105%);
+  border-left: 5px solid #00a2ad;
+}
+#nav-content a {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  display: block;
+  color: white;
+}
+.a-home{
+  margin-top: 100px;
+}
+
+#nav-input:checked ~ #nav-close {
+  display: block;
+  opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+/*▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲*/
+
+
+/*******************************************************
+.top-wrapper
+******************************************************/
+
+.top-image video {
+  margin-top:157px;
+  width: 100%;
+}
+.top-wrapper h1 {
+  font-size: 28px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.top-wrapper h2 {
+  font-size: 20px;
+}
+.fa,.fas,.fab,.far {
+  font-size: 45px;
+  border-right: 2px solid #00a2ad;
+  padding-right: 20px;
+  margin-right: 20px;
+  color: white;
+}
+.fa:hover,
+.fas:hover,
+.fab:hover,
+.far:hover {
+  opacity: 0.7;
+}
+
+
+/***** 企業理念 *****/
+.philosophy {
+  background-color: #00a2ad;
+  color: white;
+  text-align: center;
+}
+.philosophy p {
+  padding-bottom: 50px;
+}
+
+
+/******************************************************
+maintop-wrapper 
+******************************************************/
+.maintop-wrapper h1 {
+  font-size: 28px;
+}
+.maintop-wrapper h2 {
+  font-size: 20px;
+  color: #00a2ad;
+}
+.service,
+.vacancies {
+  margin-top: 100px;
+}
+
+.service img,
+.vacancies-wrapper {
+  margin-right: 4%;
+}
+.service a,
+.vacancies a {
+  color: #00a2ad;
+}
+
+/***** 事業案内 *****/
+.service img,
+.service-wrapper,
+.vacancies-wrapper {
+  width: 48%;
+  float: left;
+}
+
+/***** 採用情報 *****/
+.vacancies {
+  margin-bottom: 100px;
+}
+.vacancies img {
+  width: 48%;
+}
+.vacancies img:hover,
+.service img:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+/******************************************************
+mainander-wrapper
+******************************************************/
+
+.mainander-wrapper {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255,255,255,0.2);
+  background-blend-mode:lighten;
+}
+ 
+.mainander-wrapper h1,
+.mainander-wrapper p {
+  color: white;
+}
+
+.mainander-wrapper h1 {
+  font-size: 28px;
+}
+.mainander-wrapper h2 {
+  font-size: 20px;
+  color: #00a2ad;
+}
+.employee img,
+.employee-wrapper,
+.company-wrapper {
+  width: 48%;
+  float: left;
+}
+.company img {
+  width: 48%;
+  margin-left: 4%;
+  margin-top: 100px;
+}
+
+.employee a,
+.company a {
+  color: #00a2ad;
+}
+.employee img {
+  margin-right: 4%;
+  margin-top: 100px;
+}
+
+.employee-wrapper,
+.company-wrapper {
+  margin-top: 100px;
+}
+.company img {
+  margin-bottom: 100px;
+}
+.employee img:hover,
+.company img:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+/***** 社員紹介 *****/
+
+/***** 会社概要 *****/
+
+/*********************************************************
+poem-wrapper
+*********************************************************/
+.poem-wrapper {
+  height: 900px;
+  background-image:url(../img/grape.png);
+  background-size: cover;
+  background-blend-mode:lighten;
+}
+.poem-wrapper p {
+  text-align: center;
+  font-size: 18px;
+}
+.poem1,.poem2,.poem3 {
+  float: left;
+  width: 33%;
+}
+.poem1 {
+  margin-top: 10%;
+}
+.poem2 {
+  margin-top: 20%;
+}
+.poem3 {
+  margin-top: 30%;
+}
+.green {
+  color: #00a2ad;
+}
+
+
+
+/*********************************************************
+information-wrapper
+*********************************************************/
+.information-wrapper {
+  background-color: #00a2ad;
+}
+.information-wrapper h1 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.information-wrapper fas {
+  margin: 0;
+  padding: 0;
+}
+.information {
+  text-align: center;
+}
+.iframe {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #00a2ad;
+  border: none;
+  margin-bottom: 80px;
+}
+
+
+/**********************************************************
+partner
+**********************************************************/
+.partner h1 {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+.partner p {
+  width: 33%;
+  display: inline-block;
+}
+.greenli {
+  float: left;
+  margin-left: 20%;
+  padding-bottom: 20px;
+}
+
+/**********************************************************
+footer
+**********************************************************/
+.footer p {
+  border-top: 2px solid #00a2ad;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  margin-bottom: 0;
+  text-align: right;
+  background-color: #00a2ad;
+  color: white;
+  font-size: 12px;
+}

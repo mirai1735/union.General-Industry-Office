@@ -1,0 +1,50 @@
+
+
+/*********************************************************
+company
+**********************************************************/
+@media screen and (max-width: 768px) {
+  .company-wrapper h1 {
+    text-align: center;
+    line-height: 200px;
+    font-family: serif;
+    font-size: 180%;
+  }
+  .company-wrapper {
+    margin-top: 130px;
+    height: 200px;
+  }
+  .prof-list td {
+    font-size: 14px;
+  }
+  
+}
+
+/**********************************************************
+アクセス
+**********************************************************/
+
+@media screen and (max-width: 768px) {
+  .iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+  }
+  .access h1 {
+    padding-top: 50px;
+    font-size: 24px;
+    padding-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+  }
+  .access h2 {
+    padding-top: 60px;
+    font-size: 14px; 
+    color: #00a2ad;
+  }
+  .access p {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+}

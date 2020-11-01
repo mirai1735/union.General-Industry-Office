@@ -1,0 +1,65 @@
+
+
+/*********************************************************
+service
+**********************************************************/
+@media screen and (max-width: 768px) {
+  .service-wrapper h1 {
+    text-align: center;
+    line-height: 200px;
+    font-size: 180%;
+  }
+  .service-wrapper {
+    margin-top: 130px;
+    height: 200px;
+  }
+}
+
+/**********************************************************
+isp-wrapper
+**********************************************************/
+
+@media screen and (max-width: 768px) {
+  .isp-top h1,
+  .retro h1,
+  .other h1,
+  .economics h1 {
+    padding-top: 50px;
+    font-size: 24px;
+    padding-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+  }
+  .isp-top h2,
+  .retro h2,
+  .other h2,
+  .economics h2 {
+    padding-top: 60px;
+    font-size: 14px; 
+    color: #00a2ad;
+  }
+  .isp-top p,
+  .retro p,
+  .other p,
+  .economics p {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+  }
+  .economics a {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .isp-main img {
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+  }
+  .isp-main p {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+    display: inline-block;
+    font-size: 12px;
+  }
+}

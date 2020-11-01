@@ -1,0 +1,131 @@
+.mainander-wrapper  {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+ 
+
+
+.top-image img {
+  margin-top:157px;
+  width: 100%;
+}
+
+.top-wrapper h1 {
+  font-size: 28px;
+}
+.top-wrapper h2 {
+  font-size: 20px;
+}
+.fa,.fas,.fab,.far {
+  font-size: 45px;
+  border-right: 2px solid #00a2ad;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+/***** 企業理念 *****/
+.philosophy {
+  background-color: #00a2ad;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+.mainander-wrapper h1,
+.mainander-wrapper h2,
+.mainander-wrapper p {
+  color: white;
+}
+.mainander-wrapper h1 {
+  font-size: 28px;
+}
+.mainander-wrapper h2 {
+  font-size: 20px;
+}
+
+/***** 社員紹介 *****/
+.employee img,
+.employee-wrapper {
+  width: 49%;
+  float: left;
+}
+.employee img {
+  margin-right: 2%;
+}
+/***** 会社概要 *****/
+.company img,
+.company-wrapper {
+  width: 49%;
+  float: left;
+}
+.company img {
+  margin-right: 2%;
+}
+
+.employee a,
+.company a {
+  color: #00a2ad;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************
+maintop-wrapper 
+******************************************************/
+.maintop-wrapper h1 {
+  font-size: 28px;
+}
+.maintop-wrapper h2 {
+  font-size: 20px;
+}
+
+/***** 事業案内 *****/
+.service img,
+.service-wrapper {
+  width: 49%;
+  float: left;
+}
+.service img {
+  margin-right: 2%;
+}
+
+
+
+.vacancies img {
+  margin-right: 2%;
+}
+.service a,
+.vacancies a {
+  color: #00a2ad;
+}
+.vacancies-wrapper {
+  width: 49%;
+  float: left;
+  
+}
+.vacancies img{
+  width: 49%;
+  
+}
+
+/***** 採用情報 *****
+.vacancies img,
+
+*/

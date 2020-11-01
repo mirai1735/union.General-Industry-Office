@@ -1,0 +1,133 @@
+
+
+/*********************************************************
+employee
+**********************************************************/
+@media screen and (max-width: 768px) {
+  .employee-wrapper h1 {
+    text-align: center;
+    line-height: 200px;
+    font-size: 180%;
+  }
+  .employee-wrapper {
+    margin-top: 130px;
+    height: 200px;
+  }
+}
+
+/*********************************************************
+sales-wrapper, office-wrapper
+**********************************************************/
+@media screen and (max-width: 768px) {
+  .sales-wrapper img,
+  .office-wrapper img{
+    float: right;
+    width: 100%;
+    margin-top: 30px;
+    opacity: 0.6;
+    height: 180px;
+  }
+  .office-wrapper img {
+    margin-bottom: 30px;
+  }
+  .sales h1,
+  .office h1 {
+    padding-top: 30px;
+    font-size: 24px;
+    padding-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+  }
+  .sales h2,
+  .office h2 {
+    font-size: 14px; 
+    color: #00a2ad;
+  }
+  .sales h2 {
+    padding-top: 251px;
+  }
+  .office h2 {
+    padding-top: 270px;
+  }
+  .sales p, 
+  .office p {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+
+/**********************************************************
+top-wrapper
+**********************************************************/
+
+@media screen and (max-width: 768px) {
+  .top-wrapper h1,
+  .point-wrapper h1,
+  .welfare-wrapper h1,
+  .salary-wrapper h1 {
+    padding-top: 50px;
+    font-size: 24px;
+    padding-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+  }
+  .top-wrapper h2,
+  .point-wrapper h2,
+  .welfare-wrapper h2,
+  .salary-wrapper h2 {
+    padding-top: 60px;
+    font-size: 14px; 
+    color: #00a2ad;
+  }
+  .top-wrapper p,
+  .point-wrapper p,
+  .welfare-wrapper p,
+  .salary-wrapper p  {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+  }
+}
+
+/**********************************************************
+main-wrapper
+**********************************************************/
+
+@media screen and (max-width: 768px) {
+  
+  .point-image,
+  .welfare-image,
+  .salary-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+  }
+  .point-contents h1,
+  .welfare-contents h1,
+  .salary-contents h1 {
+  font-size: 14px;
+  opacity: 0.7;
+  color: #00a2ad;
+  }
+  .point-contents span,
+  .welfare-contents span,
+  .salary-contents span {
+    font-size: 20px;
+    background-color: #00a2ad;
+    color: white;
+    padding: 5px 9px;
+    border-radius: 5px;
+  }
+  .point-contents p,
+  .welfare-contents p,
+  .salary-contents p {
+    margin-bottom: 30px;
+    opacity: 0.7;
+    font-size: 10px;
+  }
+}

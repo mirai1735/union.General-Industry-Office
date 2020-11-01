@@ -1,0 +1,265 @@
+.clear {
+  clear: both;
+}
+
+
+/*****************************************************
+header
+*****************************************************/
+header {
+  width: 100%;
+  background: -webkit-repeating-linear-gradient(-45deg, rgba(18,18,1,0.8),rgba(23,34,19,0.8));
+  background: repeating-linear-gradient(-45deg,rgba(18,18,1,0.8), rgba(23,34,19,0.8));
+  background-color: rgba(18,18,18,0.8);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #00a2ad;
+}
+
+.header-wrapper p {
+  position: relative;
+  padding: 5px 42px 5px 30px;
+  font-size: 14px;
+  color: white;
+  width: 350px;
+  background: linear-gradient(to right, #00a2ad, transparent);
+}
+
+.header-logo {
+  padding-left: 30px;
+}
+.header-logo img {
+  width: 180px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+
+
+/* header-right */
+
+/* pcのみ表示 */
+/*▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼*/
+
+.nav-pc-list ul,
+.nav-pc-list li {
+  float: right;
+}
+.nav-pc-list ul {
+  display: inline-flex;
+  padding-left: 40px;
+}
+.nav-pc-list li {
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.nav-pc-list a {
+  color: white;
+}
+.nav-pc-list a:hover {
+  opacity: 0.4;
+  transition: 0.6s;
+}
+/*▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲*/
+
+
+/* スマホのみ表示 */
+/*▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼*/
+#nav-drawer {
+  position: relative;
+}
+.nav-unshown {
+  display:none;
+}
+#nav-open {
+  width: 20px;
+  vertical-align: middle;
+  float: right;
+  padding-right: 30px;
+}
+
+#nav-open span, 
+#nav-open span:before, 
+#nav-open span:after {
+  position: absolute;
+  height: 5px;
+  width: 45px;
+  border-radius: 3px;
+  background-color: #00a2ad;
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+#nav-open span:before {
+  bottom: -12px;
+}
+#nav-open span:after {
+  bottom: -24px;
+  margin-top: 30px;
+}
+
+#nav-close {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .3s ease-in-out;
+  background-color: black;
+}
+
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  width: 90%;
+  max-width: 330px;
+  height: 100%;
+  background-color: rgba(18,18,18,0.8);
+  transition: .3s ease-in-out;
+  transform: translateX(105%);
+  border-left: 5px solid #00a2ad;
+}
+#nav-content a {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  display: block;
+  color: white;
+}
+.a-home{
+  margin-top: 100px;
+}
+
+#nav-input:checked ~ #nav-close {
+  display: block;
+  opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+/*▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲*/
+
+
+/*********************************************************
+philiosophy
+**********************************************************/
+.philosophy-wrapper h1,
+.mission-img h1,
+.try-img h1 {
+  text-align: center;
+  line-height: 280px;
+  font-family: serif;
+  font-size: 200%;
+}
+.philosophy-wrapper {
+  margin-top: 157px;
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background-image: url(../img/1655122_s.jpg);
+  background-size: cover;
+  background-color: rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/**********************************************************
+greeting-wrapper
+**********************************************************/
+
+.greeting-wrapper h1,
+.mission-top h1,
+.try-top h1 {
+  padding-top: 100px;
+  font-size: 28px;
+  padding-bottom: 20px;
+  float: left;
+  margin-right: 20px;
+}
+.greeting-wrapper h2,
+.mission-top h2,
+.try-top h2 {
+  padding-top: 110px;
+  font-size: 18px; 
+  color: #00a2ad;
+}
+.greeting-wrapper p {
+  font-size: 15px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.greeting-top img {
+  width: 35%;
+  float: left;
+  margin-right: 4%;
+}
+
+
+/**********************************************************
+mission-wrapper
+**********************************************************/
+
+.mission-img {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  background-image: url(../img/mission.jpg);
+  background-size: cover;
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.mission-comment p,
+.try-comment p {
+  font-size: 15px;
+  opacity: 0.8;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+/**********************************************************
+try-wrapper
+**********************************************************/
+
+
+.try-img {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  background-image: url(../img/try.jpg);
+  background-size: cover;
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode:lighten;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/**********************************************************
+footer
+**********************************************************/
+.footer p {
+  border-top: 2px solid #00a2ad;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  margin-bottom: 0;
+  text-align: right;
+  background-color: #00a2ad;
+  color: white;
+  font-size: 12px;
+}

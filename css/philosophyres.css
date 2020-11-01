@@ -1,0 +1,76 @@
+
+
+/*********************************************************
+philiosophy
+**********************************************************/
+@media screen and (max-width: 768px) {
+  
+  .philosophy-wrapper h1,
+  .mission-img h1,
+  .try-img h1 {
+    text-align: center;
+    line-height: 200px;
+    font-size: 180%;
+  }
+  .philosophy-wrapper {
+    margin-top: 130px;
+    height: 200px;
+  }
+}
+
+/**********************************************************
+greeting-wrapper
+**********************************************************/
+@media screen and (max-width: 768px) {
+  .greeting-wrapper h1,
+  .mission-top h1,
+  .try-top h1 {
+    padding-top: 50px;
+    font-size: 24px;
+    padding-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+  }
+  .greeting-wrapper h2,
+  .mission-top h2,
+  .try-top h2 {
+    padding-top: 60px;
+    font-size: 14px; 
+    color: #00a2ad;
+  }
+  .greeting-wrapper p {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 0px;
+  }
+}
+
+
+/**********************************************************
+mission-wrapper
+**********************************************************/
+
+@media screen and (max-width: 768px) {
+  .mission-img,
+  .try-img {
+    width: 100%;
+    height: 200px;
+  }
+  .mission-comment p,
+  .try-comment p {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+}
+
+/**********************************************************
+try-wrapper
+**********************************************************/
+
+@media screen and (max-width: 768px) {
+  .try-comment p {
+    margin-bottom: 50px;
+  }
+}

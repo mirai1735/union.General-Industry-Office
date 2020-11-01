@@ -1,0 +1,153 @@
+@media screen and (max-width: 768px) {
+  .top-image video {
+    margin-top:130px;
+    width: 100%;
+  }
+}
+
+
+/******************************************************
+maintop-wrapper 
+******************************************************/
+@media screen and (max-width: 768px) {
+  .top-wrapper h1 {
+    font-size: 24px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+  }
+  .top-wrapper h2 {
+    font-size: 20px;
+  }
+  .fa,.fas,.fab,.far {
+    font-size: 28px;
+    border-right: 2px solid #00a2ad;
+    padding-right: 20px;
+    margin-right: 5px;
+    color: white;
+  }
+  .top-wrapper p {
+    font-size: 10px;
+  }
+  .philosophy p {
+    padding-bottom: 20px;
+  }
+
+    /***** 事業案内 *****/
+  .service,
+  .vacancies {
+    margin-top: 0;
+  }
+
+  .service img,
+  .vacancies img,
+  .employee img,
+  .company img,
+  .service-wrapper,
+  .vacancies-wrapper,
+  .employee-wrapper,
+  .company-wrapper {
+    width: 100%;
+  }
+
+  .service img,
+  .vacancies img,
+  .employee img,
+  .company img {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .service-wrapper,
+  .vacancies-wrapper,
+  .employee-wrapper,
+  .company-wrapper {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .service-wrapper h1,
+  .vacancies-wrapper h1,
+  .employee-wrapper h1,
+  .company-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .service-wrapper h2,
+  .vacancies-wrapper h2,
+  .employee-wrapper h2,
+  .company-wrapper h2 {
+    font-size: 14px;
+  }
+
+  .service-wrapper p,
+  .vacancies-wrapper p,
+  .employee-wrapper p,
+  .company-wrapper p {
+    font-size: 10px;
+  }
+ 
+}
+
+
+/*********************************************************
+poem-wrapper
+*********************************************************/
+@media screen and (max-width: 768px) {
+  .poem-wrapper {
+    height: 500px;
+  }
+  .poem-wrapper p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .green {
+    font-size: 14px;
+  }
+}
+
+
+/*********************************************************
+information-wrapper
+*********************************************************/
+@media screen and (max-width: 768px) {
+
+  .information-wrapper h1 {
+    font-size: 24px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .iframe {
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 50px;
+  }
+}
+
+
+
+/**********************************************************
+partner
+**********************************************************/
+
+@media screen and (max-width: 768px) {
+  .partner h1 {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  .partner p {
+    width: 48%;
+    display: inline-block;
+    font-size: 10px;
+  }
+  .greenli {
+    float: left;
+    margin-left: 4%;
+  }
+}
